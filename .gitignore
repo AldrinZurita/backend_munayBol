@@ -1,0 +1,21 @@
+# Ignorar entorno virtual
+backend_venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de IDE/editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
