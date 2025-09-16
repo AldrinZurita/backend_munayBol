@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+staticfiles/
+media/
+local_settings.py
+
+# Virtualenv
+.env
+.venv/
+env/
+venv/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Docker
+*.pid
+
+# Node modules (if any JS code is present)
+node_modules/
+
+# Others
+*.coverage
+*.orig
