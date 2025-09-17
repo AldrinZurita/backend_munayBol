@@ -1,21 +1,42 @@
-# Ignorar entorno virtual
-backend_venv/
-
-# Archivos de Python
+# Python
 __pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+*.pot
 *.pyc
 *.pyo
 *.pyd
+staticfiles/
+media/
+local_settings.py
 
-# Archivos de entorno
+# Virtualenv
 .env
-*.env
+.venv/
+env/
+venv/
 
-# Archivos de IDE/editores
+# IDEs/editors
 .vscode/
 .idea/
 *.swp
-
-# Archivos de sistema
+*.swo
+*.bak
 .DS_Store
-Thumbs.db
+
+# Docker
+*.pid
+postgres_data/
+docker-compose.override.yml
+
+# Node modules
+node_modules/
+
+# Otros
+*.coverage
+*.orig
+dist/
+build/
+*.egg-info/
